@@ -183,7 +183,7 @@ void interpretclick(int x, int y){
   if(x>146&&x<194&&y>78&&y<126){
     num=6;
   }
-  if(countroll<3&&x>700&&x<900&&y>10&&y<110){
+  if(x>700&&x<900&&y>10&&y<110){
     num=7;
   }
   redraw();
